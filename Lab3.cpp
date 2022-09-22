@@ -5,7 +5,9 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
   string names = readandwrite();
   cout << names;
+  return 0;
 }

@@ -7,7 +7,7 @@ using namespace std;
 string readandwrite(){
     //create ifstream object and open readme file
     ifstream inFile;
-    inFile.open("README.md");
+    inFile.open(ftoread);
 
     //check for error when opening
     if(inFile.fail()){
