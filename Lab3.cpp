@@ -1,10 +1,21 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+
+#include "header.h"
+
+=======
+
 using namespace std;
 
 int main()
 {
+
+  string names = readandwrite();
+  cout << names;
+  return 0;
+}
+=======
   //create ifstream object and open readme file
   ifstream inFile;
   inFile.open("README.md");
@@ -25,3 +36,4 @@ int main()
   inFile.close();
     return 0;
 }
+
